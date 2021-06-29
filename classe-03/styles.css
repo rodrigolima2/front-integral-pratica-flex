@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    margin-top: 64px;
+}
+
+.card-01, .card-02, .card-03{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 429px;
+    border-radius: 5px;
+
+    padding: 35px 50px 50px 50px;
+}
+.card-01 img, .card-02 img, .card-03 img{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+
+    margin-bottom: 5px;
+}
+.card-01 h1, .card-02 h1, .card-03 h1{
+    margin-bottom: 10px;
+}
+.card-01 p, .card-02 p, .card-03 p{
+    margin-bottom: 35px;
+}
+
+.card-01{
+    background: #F8F2FA;
+
+    margin-right: 15px;
+}
+
+.card-02{
+    background: #FAF2F4;
+
+    margin-right: 15px;
+}
+
+.card-03{
+    background: #F5F2FA;
+}
