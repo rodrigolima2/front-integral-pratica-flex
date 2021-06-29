@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.card{
+    display: flex;
+
+    background-color: #E28625;
+    border-radius: 8px;
+}
+
+.card-01, .card-02, .card-03{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 307px;
+
+    padding: 48px;
+}
+.card-01 h1, .card-02 h1, .card-03 h1{
+    margin-top: 35px;
+}
+.card-01 p, .card-02 p, .card-03 p{
+    margin-top: 25px;
+}
+.card-01 a, .card-02 a, .card-03 a{
+    margin-top: 85px;
+}
+
+.card-01 a{
+    color: #E28625;
+}
+
+.card-02{
+    background: #006971;
+    border-radius: 8px;
+}
+.card-02 a{
+    color: #006971;
+}
+
+.card-03{
+    background: #004140;
+    border-radius: 0px 8px 8px 0px;
+}
+.card-03 a{
+    color: #004140;
+}
