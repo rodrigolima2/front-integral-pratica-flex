@@ -1,0 +1,98 @@
+.card-01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 666px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 10px;
+
+    padding: 60px 50px 54px 50px;
+    margin-bottom: 70px;
+}
+.card-01 .card-01-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    padding-bottom: 33px;
+}
+.card-01 .card-01-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.card-01 .card-01-content .card-01-content-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    padding: 20px 30px 5px 30px;
+}
+.card-01 .card-01-content .card-01-content-perfil img.img-perfil{
+    margin-bottom: 15px;
+}
+.card-01 .card-01-content .card-01-content-perfil h2{
+    margin-bottom: 22px;
+}
+
+.card-02{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 451px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 15px;
+
+    padding: 53px 50px 48px 50px;
+}
+.card-02 .card-02-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    margin-bottom: 40px;
+}
+.card-02 .card-02-header h1{
+    margin-right: 10px;
+}
+.card-02 .card-02-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.card-02 .card-02-content .card-02-content-perfil{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+.card-02 .card-02-content .card-02-content-perfil .nome{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-left: 20px;
+}
+.card-02 .card-02-content .card-02-content-perfil .nome h2{
+    margin-bottom: 5px;
+}
+.card-02 .card-02-content .card-02-content-perfil .chat-icone{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
