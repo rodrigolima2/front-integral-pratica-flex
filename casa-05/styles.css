@@ -1,0 +1,91 @@
+.card-01, .card-02{
+    background: #FFFFFF; 
+    box-shadow: 0px 16px 45px -15px rgba(2, 5, 132, 0.25);
+    border-radius: 10px;
+}
+
+.card-01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 583px;
+
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.card-01-header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+.card-01-nome-profissao{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    padding-left: 30px;
+}
+.card-01-nome-profissao h1{
+    margin-bottom: 10px;
+}
+.card-01-seguir{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 146px;
+
+    background: #202142;
+    border-radius: 10px;
+
+    padding: 15px 30px;
+}
+.card-01-seguir img {
+    margin-right: 10px;
+}
+.card-01-image-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-02{
+    display: flex;
+    height: 222px;
+    padding: 30px 10px 30px 30px;
+}
+.card-02 img{
+    margin-right: 20px;
+}
+.card-02-nome-profissao-seguindo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    margin-right: 173px;
+}
+.card-02-nome-profissao-seguindo h1{
+    margin-bottom: 5px;
+}
+.card-02-seguindo{
+    display: flex;
+    align-items: center;
+
+    background: #FFFFFF; 
+    border: 1px solid #A4A4CB;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+.card-02-image-section{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
